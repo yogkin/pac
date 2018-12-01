@@ -17,7 +17,7 @@ var proxy   = "PROXY 1.2.3.4:8080";
 function FindProxyForURL(url, host) {
 
 // 如果域名匹配，直接连接
-    if (dnsDomainIs(host, "baidu") ||
+    if (dnsDomainIs(host, "baidu.com") ||
         shExpMatch(host, "(*.abcdomain.com|abcdomain.com)"))
         return "PROXY";
 
