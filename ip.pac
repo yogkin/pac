@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
 // 可以先把返回的结果弄成变量，省劲
 var direct  = "DIRECT";
 var socks   = "SOCKS5 127.0.0.1080";
-var proxy   = "PROXY 1.2.3.4:8080";
+var proxy   = "PROXY 192.168.199.207:5555";
 
 function FindProxyForURL(url, host) {
 
