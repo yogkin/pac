@@ -3,7 +3,7 @@
 var proxy = "PROXY 192.168.199.207:555;";
 
 var domains = {
-  "zyzc9.com": 1
+  "baidu.com": 1
 };
 
 var direct = 'DIRECT;';
