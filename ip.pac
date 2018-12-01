@@ -19,7 +19,7 @@ function FindProxyForURL(url, host) {
 // 如果域名匹配，直接连接
     if (dnsDomainIs(host, "baidu.com") ||
         shExpMatch(host, "(*.abcdomain.com|abcdomain.com)"))
-        return "PROXY";
+        return proxy;
 
 // 如果 URL 或者 协议匹配，直接连接
     if (url.substring(0, 4)=="ftp:" ||
