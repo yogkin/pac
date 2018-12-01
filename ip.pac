@@ -9,7 +9,7 @@ var proxy   = "PROXY 192.168.199.207:5555";
 function FindProxyForURL(url, host) {
 
 // 如果域名匹配，直接连接
-    if (dnsDomainIs(host, "baidu.com") ||
+    if (dnsDomainIs(host, "*.baidu.com/*") ||
         shExpMatch(host, "(*.abcdomain.com|abcdomain.com)"))
         return proxy;
 
